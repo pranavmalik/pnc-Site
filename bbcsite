@@ -1,0 +1,377 @@
+<html>
+    <head>
+        <title>Technology-pnc News</title>
+        <style type="text/css">
+        
+            #topbar {
+                
+                width: 1000px;
+                margin:0 auto;
+                height: 40px;
+            }
+            body{
+                
+                margin:0;
+                padding:0;
+                font-family: Helvetica, Arial,sans-serif
+            }
+            #logo {
+                
+                margin-top: 8px;
+                width:100px;
+                float:left;
+                margin-right:8px;
+                height: 35px
+            }
+            .topbar-section{
+                float:left;
+                border-left: 2px #CCCCCC solid;
+                height:100%;
+            }
+            #signin-image{
+                width:30px;
+                margin:8px 15px;
+            }
+            
+            #signin-text{
+                font-weight:bold;
+                font-size: 90%;
+                position: relative;
+                top:-18px;
+                margin:9px;
+            }
+            #wiggyline{
+                float:left;
+                height:40px;
+            }
+            #bell{
+                height: 25px;
+                margin: 9px 12px;
+            }
+            # bell-div{
+                float:left;
+            }
+            .topbar-menu{
+                font-weight: bold;
+                font-size: 90%;
+               padding: 13px 15px 0 15px;
+                height:27px;
+                float:left;
+            }
+            #search-box{
+                background-color: #E4E4E4;
+                border:none;
+                font-weight: bold;
+                font-size: 14px;
+                padding:5px 0 5px 5px 5px;
+                margin:15px;
+            }
+            #magnifying-glass{
+                float: right;
+                height: 19px;
+                margin-top: -33px;
+                
+            }
+            .clear{
+                clear: both;
+            }
+            
+            #menu-bar-container{
+                background-color: #BB1919;
+                width:100%;
+                height: 70px;
+            }
+            #menu-bar{
+                  width: 1000px;
+                margin:0 auto;
+                
+            }
+            h1{
+                margin: 0;
+                padding: 0;
+                color: white;
+                font-size: 40px;
+                font-weight: normal;
+            padding-top: 13px;
+                float: left;
+               
+                
+            }
+            #local-news{
+                float: right;
+                padding: 15px 5px 0 10px;
+                border:2px #BB4545 solid;
+                width: 180px;
+                margin: 5px 10px 0 0;
+            }
+            #local-news a{
+                color:white;
+                text-decoration: none;
+                font-size: 18px;
+                position: relative;
+                float:left;
+                
+            }
+            #local-news a:hover{
+                text-decoration: underline;
+            }
+            #local-news-image{
+                height: 70px
+                padding top:15px
+            
+            }
+            #menu-bar-2-container{
+                background-color: #A91717;
+                width:100%;
+                float: left;
+                
+            }
+            #menu-bar-2{
+                width: 100px;
+                margin: auto;
+                height:40px;
+                float:left;
+                padding: 10px:
+            }
+           #menu-bar-2 a{
+               color: white;
+               text-decoration: none;
+               padding: 10px 10px;
+               border-right:1px solid #BB4545;
+               font-size:25px;
+               position: relative;
+               top:5px;
+             
+            }
+            .topbar-section1{
+                color: white;
+                  float:left;
+                border-left: 2px #CCCCCC solid;
+                padding: 4px;
+                    margin: 5px 0 3px 0;
+               
+                
+            }
+            #down-arrow{
+                height: 12px;
+                position: relative;
+                margin-top: 13px;
+            }
+            #page-container{
+                width: 1000px;
+                margin:0 auto;
+            }
+            h2{
+                font-weight: normal;
+                margin-top: 10px;
+                font-size: 22px;
+                border-bottom: 3px solid #a91717;
+                width: 110px
+            }
+            
+            h3 a{
+                
+                color: black;
+                font-size: 30px;
+                text-decoration: none;
+            }
+            h3 a:hover{
+                color: #1167a8
+            }
+            #article-summary{
+                color: #CCCCCC;
+                width: 250px;
+                float: left;
+            }
+            #article-summary-img{
+                height:25px;
+                position: relative;
+                top:3px;
+                
+            }
+            #article-summary a{
+                text-decoration: none;
+                color:#a91717;
+            }
+            #article-summary a:hover{
+                color: #1167a8
+            }
+            #article-container{
+                float: left;
+                width: 660px;
+                border-right: 1px solid grey;
+            }
+            #main-article-image{
+                width: 400px;
+                margin-top: -60px;
+                margin-left: 10px
+            }
+            #article-hr {
+               border-top: 1px solid #a91717;
+                width: 50px;
+            }
+            #watch-listen{
+                margin-left: 30px;
+                widows: 360;
+                   
+            }
+            h4{
+                font-weight: normal;
+                font-size: 20px;
+            }
+            .article-side-image{
+                float: left;
+                width: 80px;
+                margin-right: 10px;
+            }
+            .watch-listen-link{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                font-size: 18px;
+                float: left;
+               
+            }
+            .watch-listen-link:hover{
+                color: #1167a8;
+                
+            }
+            .clock-right{
+                float: inherit;
+            }
+        </style>
+    
+    
+    </head>
+    <body>
+        <div id="topbar">
+            <img id="logo" src="pnc.png">
+        
+       
+        <div id="signin-div" class="topbar-section">
+            <img id="signin-image" src="signup.PNG">
+            <span id="signin-text">Sign in
+            
+            </span>
+         </div>
+            
+            <div class="topbar-section topbar-menu">
+                News
+            </div>
+            <div class="topbar-section topbar-menu">
+                Sports
+            </div>
+            <div class="topbar-section topbar-menu">
+                Weather
+            </div>
+            <div class="topbar-section topbar-menu">
+                I Player
+            </div>
+                <div class="topbar-section topbar-menu">
+                TV
+            </div>
+                <div class="topbar-section topbar-menu">
+                Radio
+            </div>
+                <div class="topbar-section topbar-menu">
+                More
+                    <img src="more%20arraow.PNG">
+            </div>
+                <div class="toolbar-section">
+                <input id="search-box"type="text" placeholder="Search">
+                    <input type="image" id="magnifying-glass" src="search.PNG">
+                </div>
+                
+     
+            <div class="clear"></div>
+            <div id="menu-bar-container">
+                <div id="menu-bar">
+                    <h1>NEWS</h1>
+                    <div id="local-news">
+                   <a href=""> Find local news</a>
+                        <img id="local-news-image" src="localnews.PNG">
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div id="menu-bar-2-container">
+            <div id="menu-bar-2">
+        <div class="topbar-section1">Home</div>
+                <div class="topbar-section1">India</div>
+                </div>
+                 <div class="topbar-section1">World</div>
+               
+             <div class="topbar-section1">Business</div>
+                
+         <div class="topbar-section1">Politics</div>
+                
+     <div class="topbar-section1">Tech</div>
+               
+ <div class="topbar-section1">Science</div>
+                
+ <div class="topbar-section1">Health</div>
+                
+ <div class="topbar-section1">Education</div>
+                
+ <div class="topbar-section1">Entertainment</div>
+              
+ <div class="topbar-section1">Audio & Video</div>
+              
+ <div class="topbar-section1">More</div>
+                <img id="down-arrow" src="more%20arraow.PNG"
+             </div>   
+
+      </div>
+            <div class="clear"></div>
+            <div id="page-container">
+            <div id="main-article">
+                <h2>Technology</h2>
+                <div id="article-container">
+                    <h3><a href="">Will mid-tier Indian IT companies<br> sink or swim in the era of digital and automation?</a></h3>
+                        <div id="article-summary">
+                      <p>  IT firms that are still not the billion-dollar babies they wanted to be have rebooted to seize the digital opportunity in a choppy sea. </p>
+                            <p><img id="article-summary-img" src="clock.PNG">16 March,2018 | <a href="">Technology</a></p>
+                            <hr id="article-hr" align="left">
+                            <p><a href="">Infosys opens second tech hub in US, promises 1000 jobs for Americans</a></p>
+                            <p><a href="">India’s cyber security chief avoids netbanking</a></p>
+                                
+
+
+                        </div>
+                    <img id="main-article-image" src="NEWS1.jpg">
+                    </div>
+            
+            </div>
+                <div id="watch-listen">
+                <h4>Watch/Listen</h4>
+                    <img class="article-side-image" src="side1.PNG">
+                    <p><a class="watch-listen-link" href="">India science chief backs blockchain.</a></p>
+                    <br>
+                    <p><img class="clock-right" src="clock.PNG">16 March 2018</p>
+                    
+                    <img class="article-side-image" src="side2.PNG">
+                    <p><a class="watch-listen-link" href="">Drone register gives 'accountability'</a></p>
+                    <br>
+                    <p><img class="clock-right" src="clock.PNG">16 March 2018</p>
+                    
+                    
+                    <img class="article-side-image" src="side3.PNG">
+                    <p><a class="watch-listen-link" href="">The flying car costing nearly £300,000</a></p>
+                    <br>
+                    <p><img class="clock-right" src="clock.PNG">16 March 2018</p>
+                    
+                      <img class="article-side-image" src="side4.PNG">
+                    <p><a class="watch-listen-link" href="">This is how VPN works.</a></p>
+                    <br>
+                    <p><img class="clock-right" src="clock.PNG">16 March 2018</p>
+                    
+                    
+
+                    
+                </div>
+                </div>
+    
+    
+    
+    </body>
+</html>
